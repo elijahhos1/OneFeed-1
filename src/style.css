@@ -1,0 +1,46 @@
+* {
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+body {
+    background-color: #F0F8FF;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 4em;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.login-div {
+    text-align: center;
+}
+
+.form input {
+    font-size: 16px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.username, .password {
+    border-radius: 30px;
+    border: 1px solid black;
+    overflow: hidden;
+    background-color: white;
+    width: 200px;
+    padding: 5px;
+    margin: 10px auto;
+}
+
+.login-button {
+    border-radius: 30px;
+    border: 1px solid black;
+    overflow: hidden;
+    background-color: white;
+    width: 125px;
+    margin: 15px auto;
+}

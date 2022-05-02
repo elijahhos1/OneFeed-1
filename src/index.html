@@ -1,33 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <title>OneFeed</title>
-    <head>    
-        <title>Login Form</title>    
-        <link rel="stylesheet" type="text/css" href="css/style.css">    
-    </head>    
-    <body>    
-        <h2>Login Page</h2><br>    
-        <div class="login">    
-        <form id="login" method="get" action="login.php">    
-            <label><b>User Name     
-            </b>    
-            </label>    
-            <input type="text" name="Uname" id="Uname" placeholder="Username">    
-            <br><br>    
-            <label><b>Password     
-            </b>    
-            </label>    
-            <input type="Password" name="Pass" id="Pass" placeholder="Password">    
-            <br><br>    
-            <input type="button" name="log" id="log" value="Log In Here">       
-            <br><br>    
-            <input type="checkbox" id="check">    
-            <span>Remember me</span>    
-            <br><br>    
-            Forgot <a href="#">Password</a>    
-        </form>     
-    </div>    
+
+
+    <title>Login Form</title>
+
+    <body>
+        <h2>OneFeed</h2><br>
+        <div class="login-div">
+            <form class="form" method="get" action="login.php">
+                <div class="username">
+                    <input type="text" name="Uname" id="Uname" placeholder="Username">
+                </div>
+
+                <div class="password">
+                    <input type="Password" name="Pass" id="Pass" placeholder="Password">
+                </div>
+
+                <div class="login-button">
+                    <input type="button" name="log" id="log" value="Log In Here">
+                </div>
+
+                <input type="checkbox" id="check">
+                <span>Remember me</span>
+                <br><br>
+                Forgot <a href="#">Password</a>
+            </form>
+        </div>
     </body> 
 </html>
