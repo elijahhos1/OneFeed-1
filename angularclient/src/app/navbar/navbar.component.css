@@ -1,6 +1,9 @@
 .navbar {
     justify-content: space-between;
 }
+.onefeed-link{
+    font-size: larger;
+}
 
 a {
     padding-right: 1rem;

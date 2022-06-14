@@ -1,13 +1,13 @@
 .register-div {
-    margin-left: 50%;
-    height: 300px;
+    width: 50%;
+    margin: 0px auto;
     text-align: center;
 }
 
 .register-text {
     font-size: 32px;
     width: 50%;
-    margin: 50px auto 25px auto;
+    margin: 50px auto;
 }
 
 .form input {
